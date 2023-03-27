@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name = " Banking Application">
+
+
+<!-- <test name  = "user login with valid details">
+<classes>
+<class name = "testCases.Userlogin"></class>
+</classes>
+</test > -->
+
+<test name = " create account">
+<classes>
+<class name = "testCases.Createaccount">
+<methods>
+<include name="logintoManagerAccount"></include>
+<include name="managerAccount"></include>
+<include name="createNewAccount"></include>
+
+</methods>
+
+
+</class>
+
+</classes>
+</test>
+
+
+
+</suite>

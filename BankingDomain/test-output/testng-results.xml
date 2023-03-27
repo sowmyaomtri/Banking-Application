@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name=" Banking Application" duration-ms="16069" started-at="2023-03-26T20:58:21 EDT" finished-at="2023-03-26T20:58:37 EDT">
+    <groups>
+    </groups>
+    <test name=" create account" duration-ms="16069" started-at="2023-03-26T20:58:21 EDT" finished-at="2023-03-26T20:58:37 EDT">
+      <class name="testCases.Createaccount">
+        <test-method status="PASS" signature="extentreportGenerte()[pri:0, instance:testCases.Createaccount@4fb64261]" name="extentreportGenerte" is-config="true" duration-ms="298" started-at="2023-03-26T20:58:21 EDT" finished-at="2023-03-26T20:58:21 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentreportGenerte -->
+        <test-method status="PASS" signature="launchdriver()[pri:0, instance:testCases.Createaccount@4fb64261]" name="launchdriver" is-config="true" duration-ms="8054" started-at="2023-03-26T20:58:21 EDT" finished-at="2023-03-26T20:58:29 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchdriver -->
+        <test-method status="PASS" signature="logintoManagerAccount()[pri:0, instance:testCases.Createaccount@4fb64261]" name="logintoManagerAccount" duration-ms="1076" started-at="2023-03-26T20:58:29 EDT" finished-at="2023-03-26T20:58:30 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintoManagerAccount -->
+        <test-method status="PASS" signature="managerAccount()[pri:0, instance:testCases.Createaccount@4fb64261]" name="managerAccount" duration-ms="587" started-at="2023-03-26T20:58:30 EDT" finished-at="2023-03-26T20:58:31 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- managerAccount -->
+        <test-method status="PASS" signature="createNewAccount()[pri:0, instance:testCases.Createaccount@4fb64261]" name="createNewAccount" duration-ms="4738" started-at="2023-03-26T20:58:31 EDT" finished-at="2023-03-26T20:58:36 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewAccount -->
+        <test-method status="PASS" signature="createhtml()[pri:0, instance:testCases.Createaccount@4fb64261]" name="createhtml" is-config="true" duration-ms="683" started-at="2023-03-26T20:58:36 EDT" finished-at="2023-03-26T20:58:36 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createhtml -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.Createaccount@4fb64261]" name="teardown" is-config="true" duration-ms="873" started-at="2023-03-26T20:58:36 EDT" depends-on-methods="testCases.Createaccount.createhtml" finished-at="2023-03-26T20:58:37 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.Createaccount -->
+    </test> <!--  create account -->
+  </suite> <!--  Banking Application -->
+</testng-results>
